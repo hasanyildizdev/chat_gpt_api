@@ -47,3 +47,13 @@ app.post('/api/openai', bodyParser.json(), async (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Server running on port ${port}`));
+
+
+/* {
+  "prompt": "Trade-related question: @prompt\n",
+  "temperature": 0,
+  "max_tokens": 256,
+  "top_p": 1,
+  "frequency_penalty": 0.75,
+  "presence_penalty": 0
+} */
